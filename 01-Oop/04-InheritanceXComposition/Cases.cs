@@ -1,6 +1,6 @@
 namespace OOP
 {
-
+  // Always give priority to composition instead inheritance
   #region Case 1
   public class FisicalPerson : Person
   {
