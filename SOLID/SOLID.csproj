@@ -1,0 +1,23 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>disable</ImplicitUsings>
+    <Nullable>disable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="1-SRP\" />
+    <None Remove="1-SRP\SRP.Solucao\" />
+    <None Remove="1-SRP\SRP.Violacao\" />
+    <None Remove="System.Data.SqlClient" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="1-SRP\" />
+    <Folder Include="1-SRP\SRP.Solucao\" />
+    <Folder Include="1-SRP\SRP.Violacao\" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="System.Data.SqlClient" Version="4.8.3" />
+  </ItemGroup>
+</Project>
